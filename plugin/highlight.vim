@@ -56,20 +56,20 @@ syntax on
 " -- Normal mode mappings --
 
 " Highlight current line 
-noremap  <silent> <C-h><C-h> :call <SID>Highlight("h") \| nohls<CR>
+noremap  <silent> <C-h><C-h> :call <SID>Highlight("h")<CR>
 " Advance color for next line highlight
 noremap  <silent> <C-h><C-a> :call <SID>Highlight("a")<CR>
 " Clear last line highlight
 noremap  <silent> <C-h><C-r> :call <SID>Highlight("r")<CR>
 
 " Highlight word under cursor (whole word match)
-noremap  <silent> <C-h><C-w> :call <SID>Highlight("w") \| nohls<CR>
+noremap  <silent> <C-h><C-w> :call <SID>Highlight("w")<CR>
 " Highlight all lines having word under cursor (whole word match)
-noremap  <silent> <C-h><C-l> :call <SID>Highlight("l") \| nohls<CR>
+noremap  <silent> <C-h><C-l> :call <SID>Highlight("l")<CR>
 " Highlight word under cursor (partial word match)
-noremap  <silent> <C-h><C-f> :call <SID>Highlight("f") \| nohls<CR>
+noremap  <silent> <C-h><C-f> :call <SID>Highlight("f")<CR>
 " Highlight all lines having word under cursor (partial word match)
-noremap  <silent> <C-h><C-k> :call <SID>Highlight("k") \| nohls<CR>
+noremap  <silent> <C-h><C-k> :call <SID>Highlight("k")<CR>
 " Highlight last search pattern
 noremap  <silent> <C-h><C-s> :call <SID>Highlight("s") \| nohls<CR>
 " Highlight all lines having last search pattern
@@ -91,13 +91,13 @@ inoremap <silent> <C-h><C-a> <C-o>:call <SID>Highlight("a")<CR>
 inoremap <silent> <C-h><C-r> <C-o>:call <SID>Highlight("r")<CR>
 
 " Highlight word under cursor (whole word match)
-inoremap <silent> <C-h><C-w> <C-o>:call <SID>Highlight("w") \| nohls<CR>
+inoremap <silent> <C-h><C-w> <C-o>:call <SID>Highlight("w")<CR>
 " Highlight all lines having word under cursor (whole word match)
-inoremap <silent> <C-h><C-l> <C-o>:call <SID>Highlight("l") \| nohls<CR>
+inoremap <silent> <C-h><C-l> <C-o>:call <SID>Highlight("l")<CR>
 " Highlight word under cursor (partial word match)
-inoremap <silent> <C-h><C-f> <C-o>:call <SID>Highlight("f") \| nohls<CR>
+inoremap <silent> <C-h><C-f> <C-o>:call <SID>Highlight("f")<CR>
 " Highlight all lines having word under cursor (partial word match)
-inoremap <silent> <C-h><C-k> <C-o>:call <SID>Highlight("k") \| nohls<CR>
+inoremap <silent> <C-h><C-k> <C-o>:call <SID>Highlight("k")<CR>
 " Highlight last search pattern
 inoremap <silent> <C-h><C-s> <C-o>:call <SID>Highlight("s") \| nohls<CR>
 " Highlight all lines having last search pattern
